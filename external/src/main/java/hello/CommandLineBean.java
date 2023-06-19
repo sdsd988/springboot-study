@@ -25,6 +25,7 @@ public class CommandLineBean {
         Set<String> optionNames = arguments.getOptionNames();
         for (String optionName : optionNames) {
             log.info("option args {} = {}", optionName, arguments.getOptionValues(optionName));
+
         }
     }
 }
