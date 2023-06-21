@@ -6,6 +6,8 @@ management:
       enabled: true
     env:
       enabled: true
+  server:
+    port: 8080
   endpoint:
     shutdown:
       enabled: true
@@ -21,3 +23,9 @@ info:
   app:
     name: hello-actuator
     company: sy
+
+logging:
+  level:
+    hello.controller: debug
+
+
